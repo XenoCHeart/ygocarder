@@ -212,6 +212,15 @@ export const FrameInfoMap: Record<string, FrameInfo> = {
         sortWeight: 100,
         isOfficial: false,
     },
+    'sealed': {
+        name: 'sealed',
+        nameKey: 'input.frame.sealed',
+        labelColor: '#0000000',
+        edition: 'fanmade',
+        labelBackgroundColor: '#2A9B5C',
+        sortWeight: 101,
+        isOfficial: false,
+    },
 };
 export const frameList = Object.values(FrameInfoMap);
 export const DefaultFrameInfo = FrameInfoMap['effect'];
